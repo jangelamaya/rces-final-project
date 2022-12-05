@@ -1,20 +1,28 @@
-# Research computing: final project
+# Research computing: final project, Fall 2022
 
-### Introduction
+Jennifer Angel-Amaya (ja3556)
 
-Beginning in 2007, the U.S. Geological Survey (USGS) collected soil samples from 4857 sites across the conterminous United States (CONUS) and analyzed them for 45 elements, including mercury. The Mercury Deposition Network (MDN) is the only network providing a longterm record of total mercury (Hg) concentration and deposition in precipitation in the United States and Canada. Site operators collect samples every Tuesday morning. Prior to May 2022, a subset of MDN sites were also analyzed for methyl mercury. The HAL reviews field and laboratory data for completeness and accuracy, and flags samples that were mishandled, compromised by precipitation collector failures, or grossly contaminated. The HAL delivers all data and information to the NADP Program Office for final checks and resolution of remaining discrepancies. Data then are made available on the NADP website
+j.angel@columbia.edu
 
-### Scientific question/Hypothesis
+Research Computing for the Earth Sciences, Columbia University
 
- The total mercury content in soils of the United States correlates with the mercury deposition from the atmosphere. However, mercury distributions vary with depth and land cover. 
+
+## Description
+
+## Mercury in soils and wet deposition in the United States
+
+Hg is a toxic elements that cycles into the environment in many forms and has diferent sources and sinks. In this notebook, I will explore the content of Hg in wet deposition and soils across the US.  Two goals lead my investigation: (1) Describe the distribution and trend of wet deposition from 1996 to 2021, and (2) describe the relationship between Hg content and land cover and estimate non-parental mercury or due to other sources than bedrock weathering (parental mercury).
+
+
+Beginning in 2007, the U.S. Geological Survey (USGS) collected soil samples from 4857 sites across the conterminous United States (CONUS) and analyzed them for 45 elements, including mercury. The Mercury Deposition Network (MDN) is the only network providing a longterm record of total mercury (Hg) concentration and deposition in precipitation in the United States and Canada. 
+
 
 ### Analysis plan
 
 - Load the data as a Xarray or Dataframe (pandas) and merge to account for spatial variability.
-- Make contour/ color mesh maps showing 1. the Total Mercury (THg) content in soils, 2. Total Mercury (THg) content in wet deposition, 3. Land cover from the soil survey.
+- Make scatter plots showing 1. the Total Mercury (THg) content in soils, 2. Total Mercury (THg) content in wet deposition, 3. Land cover from the soil survey.
 - Make bar plots to aggregate THg content in soil and land cover.
-- Make scatter plots to correlate THg content in soil and wet deposition. 
-- Perform Principal Component Analysis to explore further correlations with other elements and land cover categories. 
+
 
 ### Data resources
 
